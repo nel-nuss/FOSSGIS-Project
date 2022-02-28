@@ -52,7 +52,7 @@ In this script you will download the necessary data for the parameters/amenities
 Steps: 
 
 1. Open the OSGeo4W shell.
-2. Type cd followed by the path that leads to the folder you created (see example below).
+2. Type cd followed by the path that leads to the folder you created (see example below). Press Enter to confirm.
 ```
 cd C:\Users\Example_User\Example_Folder
 ```
