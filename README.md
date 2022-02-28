@@ -52,7 +52,10 @@ In this script you will download the necessary data for the parameters/amenities
 Steps: 
 
 1. Open the OSGeo4W shell.
-2. Type cd followed by the path that leads to the folder you created.
+2. Type cd followed by the path that leads to the folder you created (see example below).
+```
+cd C:\Users\Example_User\Example_Folder
+```
 3. Type in data_download.bat and hit Enter.
 4. Add your user variables when prompted, confirming with Enter.
 
