@@ -1,6 +1,6 @@
 ## Optimizing the identification of suitable staging areas for disaster relief
 
-######                                     Nel Nußberger, Anne-Liese Schömer 
+######                                     Nel NuÃŸberger, Anne-Liese SchÃ¶mer 
 
 
 
@@ -24,7 +24,7 @@ We will start with a site selection analysis and later on we will try to do a we
 For this project you will need: 
 
 - A *bounding box* (user input)
-- *Large paved areas* (user input) for e.g. to set up tents and to park vehicles (1500-2000 m²)
+- *Large paved areas* (user input) for e.g. to set up tents and to park vehicles (1500-2000 mÂ²)
 - *Good accessibility* close to major roads (buffer), isoschrone analysis 
 - Proximity to *Food supply locations* e.g. supermarkets, restaurants 
 - *train stations*
@@ -65,7 +65,7 @@ Example format: 8.65242004394531,49.37325290762636,8.716964721679688,49.42910795
 - %user_date%: You can only use a day that dates back more than ten days since OSM needs time to update newly mapped features. It needs to be in YYYY-MM-DD format.
 Example format: 2022-12-31
 
-- %user_area%: Enter the required area size in m�. We recommend a size of at least 1500-2000 m�. 
+- %user_area%: Enter the required area size in m². We recommend a size of at least 1500-2000 m². 
 
 
 You will obtain the following layers:
@@ -87,8 +87,8 @@ Common errors:
 This script will reproject your downloaded layers into a new Coordinate reference System, rasterize them and generate proximity rasters.
 
 1. Make sure you are still in the correct folder in the OSGeo4W shell.
-2. Type reproject_rasterize.bat to execucte the next script.
+2. Type reproject_rasterize.bat to execute the next script.
 
-You will obtain intermediate files with the prefix reproj_ and raster_ as well as proxim_
+You will obtain intermediate files with the prefix reproj_ and raster_ as well as proxim_. 
 
 
