@@ -41,7 +41,7 @@ For this project you will need:
 QGIS (recommended: current LTR version)
 We recommend installing from [OSGeo4W](https://trac.osgeo.org/osgeo4w/) since it comes with the OSGeo4W shell that allows you to run gdal commands that are needed for the analysis. Follow the installation instructions on the website.
 4. Create a folder in a location of your choice on your device. Make sure that the name does not contain invalid characters or spaces. 
-5. Download all scripts into this folder. It will later contain intermediate files and output files.
+5. Download all scripts into this folder. It will later contain all intermediate and result files.
 
 
 
@@ -58,6 +58,7 @@ cd C:\Users\Example_User\Example_Folder
 ```
 3. Type in data_download.bat and hit Enter.
 4. Add your user variables when prompted, confirming with Enter.
+5. Optional: Open the downloaded layers in QGIS. If they can be opened, proceed. If you get an "Invalid layer" error, refer to the common error section or open an issue.
 
 
 User input variables: 
