@@ -1,6 +1,6 @@
 ## Optimizing the identification of suitable staging areas for disaster relief
 
-######                                     Nel NuÃŸberger, Anne-Liese SchÃ¶mer 
+######                                     Nel Nußberger, Anne-Liese Schömer 
 
 
 
