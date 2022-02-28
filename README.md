@@ -92,6 +92,7 @@ This script will reproject your downloaded layers into a new Coordinate referenc
 
 1. Make sure you are still in the correct folder in the OSGeo4W shell.
 2. Type reproject_rasterize.bat to execute the next script.
+3. Type proximity_and_calc.bat and press Enter to execute for the next step. [BROKEN]
 
 You will obtain intermediate files with the prefix reproj_ and raster_ as well as proxim_. 
 
