@@ -47,7 +47,7 @@ We recommend installing from [OSGeo4W](https://trac.osgeo.org/osgeo4w/) since it
 
 #### Data download: 
 
-In this script you will download the necessary data for the parameters/amenities cvia the ohsome API.
+In this script you will download the necessary data for the parameters/amenities via the ohsome API.
 
 Steps: 
 
@@ -59,7 +59,7 @@ Steps:
 
 User input variables: 
 
-- %user_bbox%: you can copy a bounding from [here] (http://boundingbox.info/). Make sure to copy from the WSG84 - EPSG:4326 entry.
+- %user_bbox%: you can copy a bounding from [here](http://boundingbox.info/). Make sure to copy from the WSG84 - EPSG:4326 entry.
 Example format: 8.65242004394531,49.37325290762636,8.716964721679688,49.42910795585707
 
 - %user_date%: You can only use a day that dates back more than ten days since OSM needs time to update newly mapped features. It needs to be in YYYY-MM-DD format.
