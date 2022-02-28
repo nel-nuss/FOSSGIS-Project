@@ -79,8 +79,8 @@ You will obtain the following layers:
 - trainstations.geojson 
 
 Common errors:
-Sometimes, the API is not available. Retry later.
-Sometimes, entering the user input variables goes wrong and an invalid layer is returned. You can check layer validity by loading them into QGIS, if invalid, QGIS will show a red error message. In that case, open the invalid layer.geojson in the Editor program and try to determine the error from the files contents.
+1. Sometimes, the API is not available. Retry later.
+2. Sometimes, entering the user input variables goes wrong and an invalid layer is returned. You can check layer validity by loading them into QGIS, if invalid, QGIS will show a red error message. In that case, open the invalid layer.geojson in the Editor program and try to determine the error from the file contents.
 
 
 #### Reprojection, Rasterization, Proximity Raster Generation: 
