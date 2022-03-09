@@ -88,14 +88,13 @@ Common errors:
 
 
 #### Reprojection, Rasterization, Proximity Raster Generation: 
-The script proximity_and_calc.bat will reproject your downloaded layers into a new Coordinate reference System, rasterize them and generate proximity rasters.
+The scrript multicriteria_analysis_calc.bat contains all the needed reprojection, rasterization, proximity raster generation reclassification and calculation steps. It is executed the same way as data_download.bat **However, it is currently BROKEN at the Proximity Raster Generation step. Therefore, the steps have been split up.**
+
+The script proximity_and_calc.bat will reproject your downloaded layers into a new Coordinate reference System (UTM 32N) and rastreize them. The commands in proximity_and_calc.bat are still executable, just not the whole script.
 
 1. Make sure you are still in the correct folder in the OSGeo4W shell.
 2. Type reproject_rasterize.bat to execute the next script.
-3. Type proximity_and_calc.bat and press Enter to execute for the next step. 
- 
-
-This script is currently BROKEN at the Proximity Raster Generation step. Execute the file rasterize_reproject.bat in the command line. Then open the script proximity_and_calc.bat in the Editor app and copy out the lines of code and executing individually until this error can be fixed.
+3. Then open the script proximity_and_calc.bat in the Editor app and copy out the lines of code and executing individually.
 
 You will obtain intermediate files with the prefix reproj_ and raster_ as well as proxim_. 
 
