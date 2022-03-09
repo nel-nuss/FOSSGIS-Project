@@ -1,16 +1,16 @@
 @echo OFF
 
-echo Eckpunkte der Bounding Box eingeben : 
+echo Enter Bounding Box coordinates : 
 set /p user_bbox=
-echo Die ausgewaehlte Bounding Box ist %user_bbox%
+echo The Bounding Box is %user_bbox%
 
-echo Daten-Zeitstempel eingeben (Format: 2022-12-31; ca. 10 Tage zurueckliegendes Datum empfohlen) : 
+echo Enter date (Format: 2022-12-31; must choose a date that dates back at least 10 days) : 
 set /p user_date=
-echo Der ausgewaehlte Zeitstempel ist %user_date%
+echo The Date is %user_date%
 
-echo Groesse des Bereitstellungsraums (in Quadratmeter) eingeben : 
+echo Enter required minimum size of the staging area (in m²) : 
 set /p user_area=
-echo Die ausgewaehlte Groesse ist %user_area%
+echo The area size is %user_area% m²
 
 
 :: Herunterladen von Flächen größer als gewählte Input-Größe
