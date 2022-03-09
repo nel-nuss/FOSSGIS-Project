@@ -21,15 +21,15 @@ We will start with a site selection analysis and later on we will try to do a we
 
 #### **Parameters/amenities:** 
 
-For this project you will need: 
+In this analysis, we choose adequate staging areas based on a few parameters:
 
-- A *bounding box* (user input)
-- *Large paved areas* (user input) for e.g. to set up tents and to park vehicles (1500-2000 mÂ²)
-- *Good accessibility* close to major roads (buffer), isoschrone analysis 
-- Proximity to *Food supply locations* e.g. supermarkets, restaurants 
-- *train stations*
-- *Shelters* where people could sleep for e.g. gyms, community center
-- Optional: access  to s*anitary facilities, drinking water, electricity, sewage* 
+- A general area in which we run the analysis, delimited by a *bounding box* (user input)
+- *Large paved areas* (user input) that meet a certain size requirements, for setting up tents and to park vehicles (recommended: at least 1500-2000 m²)
+- Areas must have *good accessibility* via roads and surrounding features must also be close by.
+- Proximity to *Food supply locations* e.g. supermarkets
+- *train stations* to facilitate arrival of helpers
+- *Shelters* where helpers could sleep e.g. gyms, community centres since setting tents up costs time
+- Optional: access  to *sanitary facilities, drinking water, electricity, sewage* since setting these up is possible but costs time and resources
 
 
 
@@ -106,3 +106,12 @@ Example: For Southwestern Germany, choose UTM Zone 32N (EPSG: 32632). Simply ent
 You will obtain intermediate files with the prefix reproj_ and raster_ as well as proxim_. 
 
 
+
+
+
+
+
+#### Customization options (ADVANCED):
+Bounding Box and area size are already customisable. If you want to customize the downloaded features or proximities, you can do so by opening the .bat files in the Editor app.
+- Customising downloaded features: Open data_download.bat in the Editor app. You can add completely new features to be downloaded (make sure to include them in the subsequent steps, we recommend following the naming pattern for outputs and simply copying and altering the pre-existing code). You can also alter the features we are extracting. For the user areas for example, we extract parking areas, conference centers and stadiums (because they have large parking areas associated). If you would like to include other features, for example an airports parking, simply find the corresponding tag in OSM and add it to the code. Refer to the [ohsome API documentation](https://docs.ohsome.org/ohsome-api/v1/)for more information on how the code works.
+- Customising accessibility/ proximity rasters: If you want to alter the distances between features, open proximity_and_calc.bat and change the distances listed in the gdal_proximity commands. Refer to the [GDAL documentation](https://gdal.org/programs/gdal_proximity.html) for more information on how this code works.
