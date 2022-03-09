@@ -88,11 +88,14 @@ Common errors:
 
 
 #### Reprojection, Rasterization, Proximity Raster Generation: 
-This script will reproject your downloaded layers into a new Coordinate reference System, rasterize them and generate proximity rasters.
+The script proximity_and_calc.bat will reproject your downloaded layers into a new Coordinate reference System, rasterize them and generate proximity rasters.
 
 1. Make sure you are still in the correct folder in the OSGeo4W shell.
 2. Type reproject_rasterize.bat to execute the next script.
-3. Type proximity_and_calc.bat and press Enter to execute for the next step. [BROKEN]
+3. Type proximity_and_calc.bat and press Enter to execute for the next step. 
+ 
+
+This script is currently BROKEN at the Proximity Raster Generation step. Execute the file rasterize_reproject.bat in the command line. Then open the script proximity_and_calc.bat in the Editor app and copy out the lines of code and executing individually until this error can be fixed.
 
 You will obtain intermediate files with the prefix reproj_ and raster_ as well as proxim_. 
 
