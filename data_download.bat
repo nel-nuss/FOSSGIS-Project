@@ -1,3 +1,9 @@
+:: Script for downloading OSM features with ohsome API (DOI 10.5281/zenodo.4146990).
+:: See https://docs.ohsome.org/ohsome-api/v1/ for the documentation. 
+
+:: Author: Nel Nußberger
+:: Last edited: 09.03.2022
+
 @echo OFF
 
 echo Enter Bounding Box coordinates : 
@@ -13,7 +19,7 @@ set /p user_area=
 echo The area size is %user_area% m²
 
 
-:: Herunterladen von Flächen größer als gewählte Input-Größe
+:: Download areas larger than chosen area size
 curl -X POST ^
 --data-urlencode "bboxes=%user_bbox%" ^
 --data-urlencode "time=%user_date%" ^
@@ -22,7 +28,7 @@ curl -X POST ^
 https://api.ohsome.org/v1/elements/geometry
 
 
-:: Herunterladen von Trinkwasser-Stellen
+:: Download points with access to drinking water
 curl -X POST ^
 --data-urlencode "bboxes=%user_bbox%" ^
 --data-urlencode "time=%user_date%" ^
@@ -31,7 +37,7 @@ curl -X POST ^
 https://api.ohsome.org/v1/elements/geometry
 
 
-:: Herunterladen von Anschlüssen an Stromverteiler
+:: Download access points to power substations
 curl -X POST ^
 --data-urlencode "bboxes=%user_bbox%" ^
 --data-urlencode "time=%user_date%" ^
@@ -40,7 +46,7 @@ curl -X POST ^
 https://api.ohsome.org/v1/elements/geometry
 
 
-:: Herunterladen von Sanitäranlagen (Toiletten, Duschen)
+:: Download sanitary facilities (toilets, showers)
 curl -X POST ^
 --data-urlencode "bboxes=%user_bbox%" ^
 --data-urlencode "time=%user_date%" ^
@@ -49,7 +55,7 @@ curl -X POST ^
 https://api.ohsome.org/v1/elements/geometry
 
 
-:: Herunterladen von Nahrungsmittelversorgung (Supermarkt)
+:: Download supermarkets
 curl -X POST ^
 --data-urlencode "bboxes=%user_bbox%" ^
 --data-urlencode "time=%user_date%" ^
@@ -58,7 +64,7 @@ curl -X POST ^
 https://api.ohsome.org/v1/elements/geometry
 
 
-:: Herunterladen von Unterkünften
+:: Download shelters
 curl -X POST ^
 --data-urlencode "bboxes=%user_bbox%" ^
 --data-urlencode "time=%user_date%" ^
@@ -66,7 +72,7 @@ curl -X POST ^
 -o shelters.geojson ^
 https://api.ohsome.org/v1/elements/geometry
 
-:: Herunterladen von Bahnhöfen
+:: Download trainstations
 curl -X POST ^
 --data-urlencode "bboxes=%user_bbox%" ^
 --data-urlencode "time=%user_date%" ^
