@@ -50,4 +50,5 @@ gdal_calc -A proxim_water_point.tif --outfile=reclass_proxim_water_point.tif --c
 
 
 :: calculate values
-gdal_calc -A reclass_proxim_user_area.tif -B reclass_proxim_elec.tif -C reclass_proxim_sani.tif -D reclass_proxim_shelters.tif -E reclass_proxim_super.tif -F reclass_proxim_trainstations.tif -G reclass_proxim_water_point.tif -- calc="A+B+C+D+E+F+G"
+gdal_calc -A reclass_proxim_user_area.tif -B reclass_proxim_elec.tif -C reclass_proxim_sani.tif -D reclass_proxim_shelters.tif -E reclass_proxim_super.tif -F reclass_proxim_trainstations.tif -G reclass_proxim_water_point.tif --extent=union --outfile=proxim_final_calc.tif --calc="A+B+C+D+E+F+G"
+gdal_calc -A reclass_proxim_user_area.tif -B reclass_proxim_elec.tif -C reclass_proxim_sani.tif -D reclass_proxim_shelters.tif -E reclass_proxim_super.tif -F reclass_proxim_trainstations.tif -G reclass_proxim_water_point.tif --extent=union --outfile=proxim_final_calc.tif --calc="A+B+C+D+E+F+G"
