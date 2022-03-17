@@ -122,7 +122,26 @@ You will obtain intermediate files with the prefix reproj_ and raster_ as well a
 
 
 
+#### Visualising the results
+1. Open QGIS and load the following layers:
+- rastermap.tif
+- reproj_user_area.geojson
+2. Navigate to Web --> QuickMapServices --> OSM --> OSM Standard. (See below if this is not available)
+3. Double click the layer rastermap and navigate to Transparency and set Global Opacity to 75%
+4. Now navigate to Symbology and set Render type to Singleband pseudocolor.
+- Navigate to All Color ramps and choose the "RdYlGn" colour ramp.
+5. Depending on the colour, double click the layer reproj_user_area and navigate to Symbology
+- Pick a colour that is easily distinguishable from the raster layer
+6. Evaluating the results:
+- The greener the surrounding area of one of the potential staging areas, the more criteria are met. 
+- There are some green areas where multiple criteria are met but no potential staging area is close, disregard these.
+- Potential staging areas surrounded by red are unsuitable and should be disregarded.
+- Use the underlying OSM map to identify addresses and also disregard any potential areas that can not be used in disaster relief, e.g. hospital parking spaces.
 
+(In case of red-green color vision deficiency, choose a color ramp that ranges from white to black or similar)
+
+
+QuickMapServices: If this Plugin is not already pre-installed, navigate to Plugins --> Manage and install Plugins and use the search function to find and install it.
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
