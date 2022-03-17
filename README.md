@@ -98,12 +98,16 @@ The commands in proximity_and_calc.bat are still executable, just not the whole 
 3. When prompted, enter the EPSG code of the CRS you need your layers in. Enter only the numbers. See notes below for more information.
 4. Next, you will be prompted to enter the raster extent. Due to an error we are currently unable to fix, you need to manually find out and enter the specific extent for your bounding box. This is not an ideal solution, just a temporary workaround.
   4.1 Open the layer reproj_user_area in QGIS and double click it.
+  
   4.2 Under "Information from provider" you fill find the extent of the layer, in the format <xmin>,<ymin> : <xmax>,<ymax>:
   Example: 474780.0649738621432334,5469451.3672149349004030 : 478149.9342137648491189,5474561.8126761987805367
+  
   4.3 In order to enter the extent correctly, it needs to be in the correct format <xmin> <ymin> <xmax> <ymax>. 
   The 4 values must be separated by empty spaces instead of commas and colons.
   Example: 474780.065 5469451.3672 478149.9342 5474561.8127
+  
   4.4 Paste in the extent and hit enter to execute.
+  
   4.5 Double check the generated rasters.
 5. Then open the script proximity_and_calc.bat in the Editor app and copy out the lines of code and execute them individually. Lines that start with :: are comments and need not be copied.
 
