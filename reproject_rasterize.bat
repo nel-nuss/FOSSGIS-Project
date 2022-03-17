@@ -31,13 +31,13 @@ ogr2ogr -t_srs EPSG:%user_crs% reproj_sani.geojson sanitary_facilities.geojson
 ogr2ogr -t_srs EPSG:32632 reproj_elec.geojson electricity.geojson
 
 :: trainstations 
-ogr2ogr -t_srs EPSG:%user_crs% reproj_train.geojson trainstations.geojson
+ogr2ogr -t_srs EPSG:%user_crs% reproj_trainstations.geojson trainstations.geojson
 
 :: rasterize all layers
-gdal_rasterize -burn 1.0 -tr 10.0 10.0 -ot Float32 -of GTiff reproj_user_area.geojson rast_user_area.tif
-gdal_rasterize -burn 1.0 -tr 10.0 10.0 -ot Float32 -of GTiff reproj_water_point.geojson rast_water_point.tif
-gdal_rasterize -burn 1.0 -tr 10.0 10.0 -ot Float32 -of GTiff reproj_super.geojson rast_super.tif
-gdal_rasterize -burn 1.0 -tr 10.0 10.0 -ot Float32 -of GTiff reproj_shelters.geojson rast_shelters.tif
-gdal_rasterize -burn 1.0 -tr 10.0 10.0 -ot Float32 -of GTiff reproj_sani.geojson rast_sani.tif
-gdal_rasterize -burn 1.0 -tr 10.0 10.0 -ot Float32 -of GTiff reproj_elec.geojson rast_elec.tif
-gdal_rasterize -burn 1.0 -tr 10.0 10.0 -ot Float32 -of GTiff reproj_elec.geojson rast_trainstations.tif
+gdal_rasterize -burn 1.0 -tr 10.0 10.0 -tap -ot Float32 -of GTiff reproj_user_area.geojson rast_user_area.tif
+gdal_rasterize -burn 1.0 -tr 10.0 10.0 -tap -ot Float32 -of GTiff reproj_water_point.geojson rast_water_point.tif
+gdal_rasterize -burn 1.0 -tr 10.0 10.0 -tap -ot Float32 -of GTiff reproj_super.geojson rast_super.tif
+gdal_rasterize -burn 1.0 -tr 10.0 10.0 -tap -ot Float32 -of GTiff reproj_shelters.geojson rast_shelters.tif
+gdal_rasterize -burn 1.0 -tr 10.0 10.0 -tap -ot Float32 -of GTiff reproj_sani.geojson rast_sani.tif
+gdal_rasterize -burn 1.0 -tr 10.0 10.0 -tap -ot Float32 -of GTiff reproj_elec.geojson rast_elec.tif
+gdal_rasterize -burn 1.0 -tr 10.0 10.0 -tap -ot Float32 -of GTiff reproj_trainstations.geojson rast_trainstations.tif
