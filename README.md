@@ -95,7 +95,7 @@ The commands in proximity_and_calc.bat are still executable, just not the whole 
 
 1. Make sure you are still in the correct folder in the OSGeo4W shell.
 2. Type reproject_rasterize.bat to execute the next script.
-3. When prompted, enter the EPSG code of the CRS you need your layers in. Enter only the numbers.
+3. When prompted, enter the EPSG code of the CRS you need your layers in. Enter only the numbers. See notes below for more information.
 4. Next, you will be prompted to enter the raster extent. Due to an error we are currently unable to fix, you need to manually find out and enter the specific extent for your bounding box. This is not an ideal solution, just a temporary workaround.
   4.1 Open the layer reproj_user_area in QGIS and double click it.
   4.2 Under "Information from provider" you fill find the extent of the layer, in the format <xmin>,<ymin> : <xmax>,<ymax>:
@@ -110,9 +110,11 @@ The commands in proximity_and_calc.bat are still executable, just not the whole 
 User input variable:
 - %user_crs%: You need to enter the EPSG code of a CRS that fits the requirements for the calculation. It needs to be in metric units [m] and has to cover the area you are running the calculation on. We recommend UTM since they are very accurate for the corresponding area and in m. The website [epsg.io](https://epsg.io/) can help you find the EPSG code you need. Suggestion: In the search function, type utm and the country you are using data from, then pick the suggested CRS.
 
-Example: For Southwestern Germany, choose UTM Zone 32N (EPSG: 32632). Simply enter 32632 when prompted and your layers will be reprojected into this CRS.
+    Example: For Southwestern Germany, choose UTM Zone 32N (EPSG: 32632). Simply enter 32632 when prompted and your layers will be reprojected into this CRS.
+  
+- %rasterizing_extent%: You need to enter a raster extent in order to generate rasters of equal extent to be able to calculate the operations in proximity_and_calc.bat
 
-You will obtain intermediate files with the prefix reproj_ and raster_ as well as proxim_. 
+You will obtain intermediate files with the prefix reproj_ and raster_ as well as proxim_ and reclass_. 
 
 
 
