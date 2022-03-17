@@ -90,13 +90,22 @@ Common errors:
 #### Reprojection, Rasterization, Proximity Raster Generation: 
 The script multicriteria_analysis_calc.bat contains all the needed reprojection, rasterization, proximity raster generation reclassification and calculation steps. It is executed the same way as data_download.bat **However, it is currently BROKEN at the Proximity Raster Generation step. Therefore, the steps have been split up.**
 
-The script reproject_ratserize.bat will reproject your downloaded layers into a new Coordinate reference System and rasterize them. 
+The script reproject_rasterize.bat will reproject your downloaded layers into a new Coordinate reference System and rasterize them. 
 The commands in proximity_and_calc.bat are still executable, just not the whole script for an unknown reason. You can circumvent this by executing each line of code individually.
 
 1. Make sure you are still in the correct folder in the OSGeo4W shell.
 2. Type reproject_rasterize.bat to execute the next script.
 3. When prompted, enter the EPSG code of the CRS you need your layers in. Enter only the numbers.
-4. Then open the script proximity_and_calc.bat in the Editor app and copy out the lines of code and execute them individually. Lines that start with :: are comments and need not be copied.
+4. Next, you will be prompted to enter the raster extent. Due to an error we are currently unable to fix, you need to manually find out and enter the specific extent for your bounding box. This is not an ideal solution, just a temporary workaround.
+  4.1 Open the layer reproj_user_area in QGIS and double click it.
+  4.2 Under "Information from provider" you fill find the extent of the layer, in the format <xmin>,<ymin> : <xmax>,<ymax>:
+  Example: 474780.0649738621432334,5469451.3672149349004030 : 478149.9342137648491189,5474561.8126761987805367
+  4.3 In order to enter the extent correctly, it needs to be in the correct format <xmin> <ymin> <xmax> <ymax>. 
+  The 4 values must be separated by empty spaces instead of commas and colons.
+  Example: 474780.065 5469451.3672 478149.9342 5474561.8127
+  4.4 Paste in the extent and hit enter to execute.
+  4.5 Double check the generated rasters.
+5. Then open the script proximity_and_calc.bat in the Editor app and copy out the lines of code and execute them individually. Lines that start with :: are comments and need not be copied.
 
 User input variable:
 - %user_crs%: You need to enter the EPSG code of a CRS that fits the requirements for the calculation. It needs to be in metric units [m] and has to cover the area you are running the calculation on. We recommend UTM since they are very accurate for the corresponding area and in m. The website [epsg.io](https://epsg.io/) can help you find the EPSG code you need. Suggestion: In the search function, type utm and the country you are using data from, then pick the suggested CRS.
