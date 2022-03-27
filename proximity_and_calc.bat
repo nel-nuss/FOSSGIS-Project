@@ -1,4 +1,4 @@
-:: Script to reproject generate proximity rasters and reclassify them. Final calculation steps overlay all rasters and determine areas that do not meet enough criteria.
+:: Script to generate proximity rasters and reclassify them. Final calculation steps overlay all rasters and determine areas that do not meet enough criteria.
 :: Author: Nel Nußberger
 :: Last edited: 17.03.2022
 
@@ -51,7 +51,7 @@ gdal_calc -A proxim_trainstations.tif --outfile=reclass_proxim_trainstations.tif
 gdal_calc -A proxim_water_point.tif --outfile=reclass_proxim_water_point.tif --calc="100*(A<=100)+50*(A>100)*(A<=250)+10*(A>250)"
 
 
-:: overlay all rasters to generate a single rastr containing all information
+:: overlay all rasters to generate a single raster containing all information
 gdal_calc -A reclass_proxim_user_area.tif -B reclass_proxim_elec.tif -C reclass_proxim_sani.tif -D reclass_proxim_shelters.tif -E reclass_proxim_super.tif -F reclass_proxim_trainstations.tif -G reclass_proxim_water_point.tif --extent=union --outfile=proxim_final_calc.tif --calc="A+B+C+D+E+F+G"
 
 :: final calculation step that determines areas with low fulfillment of requirements
