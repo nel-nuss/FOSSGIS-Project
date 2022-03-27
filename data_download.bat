@@ -68,7 +68,7 @@ https://api.ohsome.org/v1/elements/geometry
 curl -X POST ^
 --data-urlencode "bboxes=%user_bbox%" ^
 --data-urlencode "time=%user_date%" ^
---data-urlencode "filter=(building=sports_hall or building=pavilion or leisure=dance or amenity=community_centre or amenity=exhibition_centre)" ^
+--data-urlencode "filter=(building=sports_hall or building=pavilion or leisure=dance or amenity=community_center or amenity=exhibition_center)" ^
 -o shelters.geojson ^
 https://api.ohsome.org/v1/elements/geometry
 
