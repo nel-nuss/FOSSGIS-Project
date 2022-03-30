@@ -13,6 +13,9 @@ echo The CRS has been set to EPSG %user_crs%
 
 
 :: user_area 
+ogr2ogr -t_srs EPSG:%user_crs% reproj_roads.geojson roads.geojson
+
+:: Roads
 ogr2ogr -t_srs EPSG:%user_crs% reproj_user_area.geojson user_area.geojson
 
 :: water_point 
@@ -43,6 +46,7 @@ echo The extent is %rasterizing_extent%
 
 :: rasterize all layers
 gdal_rasterize -burn 1.0 -tr 10.0 10.0 -te %rasterizing_extent% -ot Float32 -of GTiff reproj_user_area.geojson rast_user_area.tif
+gdal_rasterize -burn 1.0 -tr 10.0 10.0 -te %rasterizing_extent% -ot Float32 -of GTiff reproj_roads.geojson rast_roads.tif
 gdal_rasterize -burn 1.0 -tr 10.0 10.0 -te %rasterizing_extent% -ot Float32 -of GTiff reproj_water_point.geojson rast_water_point.tif
 gdal_rasterize -burn 1.0 -tr 10.0 10.0 -te %rasterizing_extent% -ot Float32 -of GTiff reproj_super.geojson rast_super.tif
 gdal_rasterize -burn 1.0 -tr 10.0 10.0 -te %rasterizing_extent% -ot Float32 -of GTiff reproj_shelters.geojson rast_shelters.tif
