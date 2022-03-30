@@ -27,6 +27,14 @@ curl -X POST ^
 -o user_area.geojson ^
 https://api.ohsome.org/v1/elements/geometry
 
+:: Download major roads
+curl -X POST ^
+--data-urlencode "bboxes=%user_bbox%" ^
+--data-urlencode "time=%user_date%" ^
+--data-urlencode "filter=(highway=motorway or highway=primary or highway=secondary)" ^
+-o roads.geojson ^
+https://api.ohsome.org/v1/elements/geometry
+
 
 :: Download points with access to drinking water
 curl -X POST ^
