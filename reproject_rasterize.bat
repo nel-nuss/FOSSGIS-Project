@@ -2,7 +2,7 @@
 :: The EPSG code for the desired CRS is entered by the user. IMPORTANT: Must be in metric units [m]!
 
 :: Author: Nel Nußberger
-:: Last edited: 09.03.2022
+:: Last edited: 30.03.2022
 
 
 @echo OFF
