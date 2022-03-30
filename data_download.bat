@@ -2,7 +2,7 @@
 :: See https://docs.ohsome.org/ohsome-api/v1/ for the documentation. 
 
 :: Author: Nel Nußberger
-:: Last edited: 09.03.2022
+:: Last edited: 30.03.2022
 
 @echo OFF
 
