@@ -1,11 +1,14 @@
 :: Script to generate proximity rasters and reclassify them. Final calculation steps overlay all rasters and determine areas that do not meet enough criteria.
 :: Author: Nel Nußberger
-:: Last edited: 17.03.2022
+:: Last edited: 30.03.2022
 
 :: generate proximity rasters for all layers
 
 :: user area
 gdal_proximity -srcband 1 -distunits GEO -maxdist 250.0 -ot Float32 -of GTiff rast_user_area.tif proxim_user_area.tif
+
+:: roads
+gdal_proximity -srcband 1 -distunits GEO -maxdist 5000.0 -ot Float32 -of GTiff rast_roads.tif proxim_roads.tif
 
 :: elec points
 gdal_proximity -srcband 1 -distunits GEO -maxdist 150.0 -ot Float32 -of GTiff rast_elec.tif proxim_elec.tif
@@ -32,6 +35,9 @@ gdal_proximity -srcband 1 -distunits GEO -maxdist 500.0 -ot Float32 -of GTiff ra
 :: user area
 gdal_calc -A proxim_user_area.tif --outfile=reclass_proxim_user_area.tif --calc="100*(A<=100)+50*(A>100)*(A<=250)+1*(A>250)"
 
+:: roads
+gdal_calc -A proxim_roads.tif --outfile=reclass_proxim_roads.tif --calc="100*(A<=2000)+50*(A>2000)*(A<=5000)+1*(A>5000)"
+
 :: elec points
 gdal_calc -A proxim_elec.tif --outfile=reclass_proxim_elec.tif --calc="25*(A<=50)+10*(A>50)*(A<=150)+1*(A>150)"
 
@@ -52,7 +58,7 @@ gdal_calc -A proxim_water_point.tif --outfile=reclass_proxim_water_point.tif --c
 
 
 :: overlay all rasters to generate a single raster containing all information
-gdal_calc -A reclass_proxim_user_area.tif -B reclass_proxim_elec.tif -C reclass_proxim_sani.tif -D reclass_proxim_shelters.tif -E reclass_proxim_super.tif -F reclass_proxim_trainstations.tif -G reclass_proxim_water_point.tif --extent=union --outfile=proxim_final_calc.tif --calc="A+B+C+D+E+F+G"
+gdal_calc -A reclass_proxim_user_area.tif -B reclass_proxim_elec.tif -C reclass_proxim_sani.tif -D reclass_proxim_shelters.tif -E reclass_proxim_super.tif -F reclass_proxim_trainstations.tif -G reclass_proxim_water_point.tif -H reclass_proxim_roads.tif --extent=union --outfile=proxim_final_calc.tif --calc="A+B+C+D+E+F+G+H"
 
 :: final calculation step that determines areas with low fulfillment of requirements
 gdal_calc -A proxim_final_calc.tif --outfile=rastermap.tif --calc="(A>=150)*A"
