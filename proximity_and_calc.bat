@@ -60,5 +60,12 @@ gdal_calc -A proxim_water_point.tif --outfile=reclass_proxim_water_point.tif --c
 :: overlay all rasters to generate a single raster containing all information
 gdal_calc -A reclass_proxim_user_area.tif -B reclass_proxim_elec.tif -C reclass_proxim_sani.tif -D reclass_proxim_shelters.tif -E reclass_proxim_super.tif -F reclass_proxim_trainstations.tif -G reclass_proxim_water_point.tif -H reclass_proxim_roads.tif --extent=union --outfile=proxim_final_calc.tif --calc="A+B+C+D+E+F+G+H"
 
-:: final calculation step that determines areas with low fulfillment of requirements
-gdal_calc -A proxim_final_calc.tif --outfile=rastermap.tif --calc="(A>=150)*A"
+:: final calculation step that determines areas with low fulfillment of requirements in order to more easily exclude them 
+:: cutoff 150
+gdal_calc -A proxim_final_calc.tif --outfile=rastermap150.tif --calc="(A>=150)*A"
+
+:: cutoff 175
+gdal_calc -A proxim_final_calc.tif --outfile=rastermap175.tif --calc="(A>=175)*A"
+
+::cutoff 200
+gdal_calc -A proxim_final_calc.tif --outfile=rastermap200.tif --calc="(A>=200)*A"
