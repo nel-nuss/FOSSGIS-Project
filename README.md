@@ -143,7 +143,7 @@ You will obtain intermediate files with the prefix reproj_ and raster_ as well a
 - Use the underlying OSM map to identify addresses and also disregard any potential areas that can not be used in disaster relief, e.g. hospital parking spaces.
 
 Depending on your provided area size and bounding box, you might obtain way too many or way too little potential areas to meaningfully consider as potential staging areas. Therefore, we provided three calculations that cut off suitability at certain ranks (150, 175, 200). Choose the map that is best suited to your needs. If none of the three options produce a useful result, open proximity_and_calc.bat and change the cutoff value provided in the last line of code.
-Within the code, the flag ```--calc="(A>=200)*A"``` is responsible for setting and calculating the cut-off value. Simply change the number and see what kind of result you get with different numbers!
+Within the code, the flag ```--calc="(A>=200)*A"``` is responsible for setting and calculating the cut-off value. Simply change the number and see what kind of result you get with different numbers! When doing this, adjust the output name at ```--outfile=rastermapXXX.tif``` to reflect the cut-off value that was used.
 
 (In case of red-green color vision deficiency, choose a color ramp that ranges from white to black or similar)
 
