@@ -42,6 +42,7 @@ QGIS (recommended: current LTR version)
 We recommend installing from [OSGeo4W](https://trac.osgeo.org/osgeo4w/) since it comes with the OSGeo4W shell that allows you to run gdal commands that are needed for the analysis. Follow the installation instructions on the website.
 4. Create a folder in a location of your choice on your device. Make sure that the name does not contain invalid characters or spaces. 
 5. Download all scripts into this folder. It will later contain all intermediate and result files.
+6. If you want to run the tool multiple times, create new folders every time and copy in the scripts.
 
 
 
@@ -124,11 +125,14 @@ You will obtain intermediate files with the prefix reproj_ and raster_ as well a
 
 #### Visualising the results
 1. Open QGIS and load the following layers:
-- rastermap.tif
+- proxim_final_calc.tif (The final overlay of all rasters)
+- rastermap150.tif (The raster overlay, but suitability values below 150 are classified as "unsuitable")
+- rastermap175.tif (The raster overlay, but suitability values below 175 are classified as "unsuitable")
+- rastermap200.tif (The raster overlay, but suitability values below 200 are classified as "unsuitable")
 - reproj_user_area.geojson
 2. Navigate to Web --> QuickMapServices --> OSM --> OSM Standard. (See below if this is not available)
-3. Double click the layer rastermap and navigate to Transparency and set Global Opacity to 75%
-4. Now navigate to Symbology and set Render type to Singleband pseudocolor.
+3. Double click the rastermap-layers and navigate to Transparency and set Global Opacity to 75%
+4. Now navigate to Symbology for each raster and set Render type to Singleband pseudocolor.
 - Navigate to All Color ramps and choose the "RdYlGn" colour ramp.
 5. Depending on the colour, double click the layer reproj_user_area and navigate to Symbology
 - Pick a colour that is easily distinguishable from the raster layer
@@ -137,6 +141,9 @@ You will obtain intermediate files with the prefix reproj_ and raster_ as well a
 - There are some green areas where multiple criteria are met but no potential staging area is close, disregard these.
 - Potential staging areas surrounded by red are unsuitable and should be disregarded.
 - Use the underlying OSM map to identify addresses and also disregard any potential areas that can not be used in disaster relief, e.g. hospital parking spaces.
+
+Depending on your provided area size and bounding box, you might obtain way too many or way too little potential areas to meaningfully consider as potential staging areas. Therefore, we provided three calculations that cut off suitability at certain ranks (150, 175, 200). Choose the map that is best suited to your needs. If none of the three options produce a useful result, open proximity_and_calc.bat and change the cutoff value provided in the last line of code.
+Within the code, the flag ```--calc="(A>=200)*A"``` is responsible for setting and calculating the cut-off value. Simply change the number and see what kind of result you get with different numbers!
 
 (In case of red-green color vision deficiency, choose a color ramp that ranges from white to black or similar)
 
