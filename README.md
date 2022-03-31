@@ -1,4 +1,4 @@
-## Optimizing the identification of suitable staging areas for disaster relief
+## Optimizing the identification of suitable staging areas for disaster relief with GIS-based weighted multicriteria analysis
 
 ######                                     Nel Nußberger, Anne-Liese Schömer 
 
