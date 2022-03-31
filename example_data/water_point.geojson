@@ -1,0 +1,87 @@
+{
+  "attribution" : {
+    "url" : "https://ohsome.org/copyrights",
+    "text" : "© OpenStreetMap contributors"
+  },
+  "apiVersion" : "1.6.2",
+  "type" : "FeatureCollection",
+  "features" : [{
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [
+        8.7004521,
+        49.4157261
+      ]
+    },
+    "properties" : {
+      "@osmId" : "node/346451313",
+      "@snapshotTimestamp" : "2022-02-16T00:00:00Z"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [
+        8.7006398,
+        49.4157681
+      ]
+    },
+    "properties" : {
+      "@osmId" : "node/419294001",
+      "@snapshotTimestamp" : "2022-02-16T00:00:00Z"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [
+        8.7002566,
+        49.4095083
+      ]
+    },
+    "properties" : {
+      "@osmId" : "node/2018074954",
+      "@snapshotTimestamp" : "2022-02-16T00:00:00Z"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [
+        8.7018271,
+        49.4109969
+      ]
+    },
+    "properties" : {
+      "@osmId" : "node/2280283474",
+      "@snapshotTimestamp" : "2022-02-16T00:00:00Z"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [
+        8.6671359,
+        49.3892296
+      ]
+    },
+    "properties" : {
+      "@osmId" : "node/4449202451",
+      "@snapshotTimestamp" : "2022-02-16T00:00:00Z"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [
+        8.6795855,
+        49.4094985
+      ]
+    },
+    "properties" : {
+      "@osmId" : "node/5115143358",
+      "@snapshotTimestamp" : "2022-02-16T00:00:00Z"
+    }
+  }]
+}

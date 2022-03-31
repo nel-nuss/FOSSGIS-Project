@@ -1,0 +1,1305 @@
+{
+  "attribution" : {
+    "url" : "https://ohsome.org/copyrights",
+    "text" : "© OpenStreetMap contributors"
+  },
+  "apiVersion" : "1.6.2",
+  "type" : "FeatureCollection",
+  "features" : [{
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Polygon",
+      "coordinates" : [
+        [
+          [
+            8.6677519,
+            49.3895088
+          ],
+          [
+            8.6676432,
+            49.3894943
+          ],
+          [
+            8.6676644,
+            49.3894272
+          ],
+          [
+            8.6677731,
+            49.3894418
+          ],
+          [
+            8.6677519,
+            49.3895088
+          ]
+        ]
+      ]
+    },
+    "properties" : {
+      "@osmId" : "way/447849111",
+      "@snapshotTimestamp" : "2022-02-16T00:00:00Z"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Polygon",
+      "coordinates" : [
+        [
+          [
+            8.703,
+            49.4104732
+          ],
+          [
+            8.7030032,
+            49.4104624
+          ],
+          [
+            8.7030262,
+            49.4104653
+          ],
+          [
+            8.7030228,
+            49.4104764
+          ],
+          [
+            8.7030052,
+            49.410474
+          ],
+          [
+            8.703,
+            49.4104732
+          ]
+        ]
+      ]
+    },
+    "properties" : {
+      "@osmId" : "way/1026112097",
+      "@snapshotTimestamp" : "2022-02-16T00:00:00Z"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Polygon",
+      "coordinates" : [
+        [
+          [
+            8.70305,
+            49.4104803
+          ],
+          [
+            8.7030541,
+            49.4104692
+          ],
+          [
+            8.7030262,
+            49.4104653
+          ],
+          [
+            8.7030228,
+            49.4104764
+          ],
+          [
+            8.7030448,
+            49.4104795
+          ],
+          [
+            8.70305,
+            49.4104803
+          ]
+        ]
+      ]
+    },
+    "properties" : {
+      "@osmId" : "way/1026112110",
+      "@snapshotTimestamp" : "2022-02-16T00:00:00Z"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Polygon",
+      "coordinates" : [
+        [
+          [
+            8.7029935,
+            49.4104711
+          ],
+          [
+            8.7029966,
+            49.4104601
+          ],
+          [
+            8.7030198,
+            49.4104632
+          ],
+          [
+            8.7030167,
+            49.4104732
+          ],
+          [
+            8.7030045,
+            49.4104718
+          ],
+          [
+            8.7030043,
+            49.4104726
+          ],
+          [
+            8.7030041,
+            49.4104726
+          ],
+          [
+            8.7029995,
+            49.410472
+          ],
+          [
+            8.7029935,
+            49.4104711
+          ]
+        ]
+      ]
+    },
+    "properties" : {
+      "@osmId" : "way/1027201673",
+      "@snapshotTimestamp" : "2022-02-16T00:00:00Z"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Polygon",
+      "coordinates" : [
+        [
+          [
+            8.7030321,
+            49.4104765
+          ],
+          [
+            8.7030323,
+            49.4104756
+          ],
+          [
+            8.7030204,
+            49.410474
+          ],
+          [
+            8.7030238,
+            49.4104638
+          ],
+          [
+            8.7030416,
+            49.4104665
+          ],
+          [
+            8.7030469,
+            49.4104671
+          ],
+          [
+            8.7030431,
+            49.410478
+          ],
+          [
+            8.7030375,
+            49.4104773
+          ],
+          [
+            8.7030321,
+            49.4104765
+          ]
+        ]
+      ]
+    },
+    "properties" : {
+      "@osmId" : "way/1027201674",
+      "@snapshotTimestamp" : "2022-02-16T00:00:00Z"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Polygon",
+      "coordinates" : [
+        [
+          [
+            8.70298,
+            49.4104751
+          ],
+          [
+            8.7030164,
+            49.4104799
+          ],
+          [
+            8.7030123,
+            49.4104931
+          ],
+          [
+            8.7029771,
+            49.4104881
+          ],
+          [
+            8.7029785,
+            49.4104831
+          ],
+          [
+            8.7029776,
+            49.410483
+          ],
+          [
+            8.7029788,
+            49.410479
+          ],
+          [
+            8.70298,
+            49.4104751
+          ]
+        ]
+      ]
+    },
+    "properties" : {
+      "@osmId" : "way/1027359245",
+      "@snapshotTimestamp" : "2022-02-16T00:00:00Z"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Polygon",
+      "coordinates" : [
+        [
+          [
+            8.7029803,
+            49.410474
+          ],
+          [
+            8.7030166,
+            49.4104789
+          ],
+          [
+            8.7030208,
+            49.4104659
+          ],
+          [
+            8.7029856,
+            49.4104611
+          ],
+          [
+            8.7029838,
+            49.4104664
+          ],
+          [
+            8.7029827,
+            49.4104664
+          ],
+          [
+            8.7029816,
+            49.41047
+          ],
+          [
+            8.7029803,
+            49.410474
+          ]
+        ]
+      ]
+    },
+    "properties" : {
+      "@osmId" : "way/1027359246",
+      "@snapshotTimestamp" : "2022-02-16T00:00:00Z"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Polygon",
+      "coordinates" : [
+        [
+          [
+            8.7029978,
+            49.4104912
+          ],
+          [
+            8.7030358,
+            49.4104963
+          ],
+          [
+            8.703026,
+            49.410527
+          ],
+          [
+            8.7029898,
+            49.4105215
+          ],
+          [
+            8.702997,
+            49.4104993
+          ],
+          [
+            8.7029949,
+            49.410499
+          ],
+          [
+            8.7029964,
+            49.410495
+          ],
+          [
+            8.7029978,
+            49.4104912
+          ]
+        ]
+      ]
+    },
+    "properties" : {
+      "@osmId" : "way/1028136229",
+      "@snapshotTimestamp" : "2022-02-16T00:00:00Z"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Polygon",
+      "coordinates" : [
+        [
+          [
+            8.7029986,
+            49.4104883
+          ],
+          [
+            8.7030367,
+            49.4104936
+          ],
+          [
+            8.7030445,
+            49.4104678
+          ],
+          [
+            8.7030085,
+            49.4104628
+          ],
+          [
+            8.7030029,
+            49.4104808
+          ],
+          [
+            8.7030006,
+            49.4104807
+          ],
+          [
+            8.7029997,
+            49.4104842
+          ],
+          [
+            8.7029986,
+            49.4104883
+          ]
+        ]
+      ]
+    },
+    "properties" : {
+      "@osmId" : "way/1028136230",
+      "@snapshotTimestamp" : "2022-02-16T00:00:00Z"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Polygon",
+      "coordinates" : [
+        [
+          [
+            8.7032318,
+            49.4106195
+          ],
+          [
+            8.7032063,
+            49.4106166
+          ],
+          [
+            8.703202,
+            49.4106326
+          ],
+          [
+            8.7032008,
+            49.410637
+          ],
+          [
+            8.7032,
+            49.4106402
+          ],
+          [
+            8.7031955,
+            49.4106567
+          ],
+          [
+            8.7032318,
+            49.4106609
+          ],
+          [
+            8.7032318,
+            49.4106195
+          ]
+        ]
+      ]
+    },
+    "properties" : {
+      "@osmId" : "way/1028398116",
+      "@snapshotTimestamp" : "2022-02-16T00:00:00Z"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Polygon",
+      "coordinates" : [
+        [
+          [
+            8.6926531,
+            49.4171473
+          ],
+          [
+            8.6926549,
+            49.417142
+          ],
+          [
+            8.6926665,
+            49.4171083
+          ],
+          [
+            8.6927407,
+            49.4171191
+          ],
+          [
+            8.6927272,
+            49.4171581
+          ],
+          [
+            8.6926531,
+            49.4171473
+          ]
+        ]
+      ]
+    },
+    "properties" : {
+      "@osmId" : "way/139841100",
+      "@snapshotTimestamp" : "2022-02-16T00:00:00Z"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Polygon",
+      "coordinates" : [
+        [
+          [
+            8.6897604,
+            49.4131331
+          ],
+          [
+            8.6897626,
+            49.4131123
+          ],
+          [
+            8.6898337,
+            49.4131156
+          ],
+          [
+            8.6898315,
+            49.4131364
+          ],
+          [
+            8.6897604,
+            49.4131331
+          ]
+        ]
+      ]
+    },
+    "properties" : {
+      "@osmId" : "way/192557340",
+      "@snapshotTimestamp" : "2022-02-16T00:00:00Z"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Polygon",
+      "coordinates" : [
+        [
+          [
+            8.6815613,
+            49.4122157
+          ],
+          [
+            8.6817158,
+            49.4122385
+          ],
+          [
+            8.6817056,
+            49.4122679
+          ],
+          [
+            8.6815511,
+            49.4122451
+          ],
+          [
+            8.6815613,
+            49.4122157
+          ]
+        ]
+      ]
+    },
+    "properties" : {
+      "@osmId" : "way/192557342",
+      "@snapshotTimestamp" : "2022-02-16T00:00:00Z"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Polygon",
+      "coordinates" : [
+        [
+          [
+            8.6834291,
+            49.4201003
+          ],
+          [
+            8.6834331,
+            49.4200901
+          ],
+          [
+            8.6834483,
+            49.4200517
+          ],
+          [
+            8.6835213,
+            49.4200638
+          ],
+          [
+            8.6835021,
+            49.4201125
+          ],
+          [
+            8.6834291,
+            49.4201003
+          ]
+        ]
+      ]
+    },
+    "properties" : {
+      "@osmId" : "way/456209066",
+      "@snapshotTimestamp" : "2022-02-16T00:00:00Z"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Polygon",
+      "coordinates" : [
+        [
+          [
+            8.6834835,
+            49.4201596
+          ],
+          [
+            8.6834106,
+            49.4201474
+          ],
+          [
+            8.6834229,
+            49.4201161
+          ],
+          [
+            8.6834291,
+            49.4201003
+          ],
+          [
+            8.6835021,
+            49.4201125
+          ],
+          [
+            8.6834835,
+            49.4201596
+          ]
+        ]
+      ]
+    },
+    "properties" : {
+      "@osmId" : "way/456209067",
+      "@snapshotTimestamp" : "2022-02-16T00:00:00Z"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Polygon",
+      "coordinates" : [
+        [
+          [
+            8.6750169,
+            49.4044487
+          ],
+          [
+            8.674922,
+            49.4044922
+          ],
+          [
+            8.6749154,
+            49.4044858
+          ],
+          [
+            8.6748826,
+            49.4045003
+          ],
+          [
+            8.6748489,
+            49.404468
+          ],
+          [
+            8.6747865,
+            49.4044956
+          ],
+          [
+            8.6746903,
+            49.4044027
+          ],
+          [
+            8.6746769,
+            49.4044086
+          ],
+          [
+            8.6746352,
+            49.4043694
+          ],
+          [
+            8.6747442,
+            49.4043211
+          ],
+          [
+            8.6747601,
+            49.4043363
+          ],
+          [
+            8.6749232,
+            49.4042645
+          ],
+          [
+            8.6749897,
+            49.4043254
+          ],
+          [
+            8.6750337,
+            49.4043657
+          ],
+          [
+            8.675,
+            49.4043781
+          ],
+          [
+            8.6750169,
+            49.4044487
+          ]
+        ]
+      ]
+    },
+    "properties" : {
+      "@osmId" : "way/462362618",
+      "@snapshotTimestamp" : "2022-02-16T00:00:00Z"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Polygon",
+      "coordinates" : [
+        [
+          [
+            8.6917616,
+            49.3956021
+          ],
+          [
+            8.6918327,
+            49.3956021
+          ],
+          [
+            8.6918327,
+            49.3955454
+          ],
+          [
+            8.6917616,
+            49.3955454
+          ],
+          [
+            8.6917616,
+            49.3956021
+          ]
+        ]
+      ]
+    },
+    "properties" : {
+      "@osmId" : "way/659736518",
+      "@snapshotTimestamp" : "2022-02-16T00:00:00Z"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Polygon",
+      "coordinates" : [
+        [
+          [
+            8.665843,
+            49.4020656
+          ],
+          [
+            8.6659026,
+            49.4020366
+          ],
+          [
+            8.6658697,
+            49.4020079
+          ],
+          [
+            8.66581,
+            49.4020369
+          ],
+          [
+            8.665843,
+            49.4020656
+          ]
+        ]
+      ]
+    },
+    "properties" : {
+      "@osmId" : "way/995318254",
+      "@snapshotTimestamp" : "2022-02-16T00:00:00Z"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [
+        8.6856608,
+        49.4125622
+      ]
+    },
+    "properties" : {
+      "@osmId" : "node/269385014",
+      "@snapshotTimestamp" : "2022-02-16T00:00:00Z"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [
+        8.6877203,
+        49.4028079
+      ]
+    },
+    "properties" : {
+      "@osmId" : "node/312805611",
+      "@snapshotTimestamp" : "2022-02-16T00:00:00Z"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [
+        8.6920033,
+        49.4132392
+      ]
+    },
+    "properties" : {
+      "@osmId" : "node/317580926",
+      "@snapshotTimestamp" : "2022-02-16T00:00:00Z"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [
+        8.6927154,
+        49.4101353
+      ]
+    },
+    "properties" : {
+      "@osmId" : "node/364775631",
+      "@snapshotTimestamp" : "2022-02-16T00:00:00Z"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [
+        8.6639595,
+        49.4147102
+      ]
+    },
+    "properties" : {
+      "@osmId" : "node/1218124791",
+      "@snapshotTimestamp" : "2022-02-16T00:00:00Z"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [
+        8.6605991,
+        49.4144262
+      ]
+    },
+    "properties" : {
+      "@osmId" : "node/1218124878",
+      "@snapshotTimestamp" : "2022-02-16T00:00:00Z"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [
+        8.6615636,
+        49.4157782
+      ]
+    },
+    "properties" : {
+      "@osmId" : "node/1218125125",
+      "@snapshotTimestamp" : "2022-02-16T00:00:00Z"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [
+        8.6890346,
+        49.3985092
+      ]
+    },
+    "properties" : {
+      "@osmId" : "node/1300175192",
+      "@snapshotTimestamp" : "2022-02-16T00:00:00Z"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [
+        8.6546617,
+        49.4015634
+      ]
+    },
+    "properties" : {
+      "@osmId" : "node/1975553461",
+      "@snapshotTimestamp" : "2022-02-16T00:00:00Z"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [
+        8.6761951,
+        49.4080292
+      ]
+    },
+    "properties" : {
+      "@osmId" : "node/2137805918",
+      "@snapshotTimestamp" : "2022-02-16T00:00:00Z"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [
+        8.6641649,
+        49.4149077
+      ]
+    },
+    "properties" : {
+      "@osmId" : "node/2242897155",
+      "@snapshotTimestamp" : "2022-02-16T00:00:00Z"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [
+        8.6941042,
+        49.4106938
+      ]
+    },
+    "properties" : {
+      "@osmId" : "node/2589806453",
+      "@snapshotTimestamp" : "2022-02-16T00:00:00Z"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [
+        8.6706413,
+        49.4157103
+      ]
+    },
+    "properties" : {
+      "@osmId" : "node/2716955626",
+      "@snapshotTimestamp" : "2022-02-16T00:00:00Z"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [
+        8.7003337,
+        49.4099021
+      ]
+    },
+    "properties" : {
+      "@osmId" : "node/3190925663",
+      "@snapshotTimestamp" : "2022-02-16T00:00:00Z"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [
+        8.6690852,
+        49.4022554
+      ]
+    },
+    "properties" : {
+      "@osmId" : "node/3424185962",
+      "@snapshotTimestamp" : "2022-02-16T00:00:00Z"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [
+        8.6903816,
+        49.4149634
+      ]
+    },
+    "properties" : {
+      "@osmId" : "node/3572846910",
+      "@snapshotTimestamp" : "2022-02-16T00:00:00Z"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [
+        8.6799842,
+        49.409083
+      ]
+    },
+    "properties" : {
+      "@osmId" : "node/3738998469",
+      "@snapshotTimestamp" : "2022-02-16T00:00:00Z"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [
+        8.6803324,
+        49.40908
+      ]
+    },
+    "properties" : {
+      "@osmId" : "node/3738998470",
+      "@snapshotTimestamp" : "2022-02-16T00:00:00Z"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [
+        8.6805751,
+        49.4092802
+      ]
+    },
+    "properties" : {
+      "@osmId" : "node/3738998473",
+      "@snapshotTimestamp" : "2022-02-16T00:00:00Z"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [
+        8.679985,
+        49.4094606
+      ]
+    },
+    "properties" : {
+      "@osmId" : "node/3738998475",
+      "@snapshotTimestamp" : "2022-02-16T00:00:00Z"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [
+        8.6803401,
+        49.4094579
+      ]
+    },
+    "properties" : {
+      "@osmId" : "node/3738998478",
+      "@snapshotTimestamp" : "2022-02-16T00:00:00Z"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [
+        8.6796229,
+        49.4092858
+      ]
+    },
+    "properties" : {
+      "@osmId" : "node/3765023181",
+      "@snapshotTimestamp" : "2022-02-16T00:00:00Z"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [
+        8.6936476,
+        49.3966995
+      ]
+    },
+    "properties" : {
+      "@osmId" : "node/4058852472",
+      "@snapshotTimestamp" : "2022-02-16T00:00:00Z"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [
+        8.6709773,
+        49.3994259
+      ]
+    },
+    "properties" : {
+      "@osmId" : "node/4975134345",
+      "@snapshotTimestamp" : "2022-02-16T00:00:00Z"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [
+        8.6701092,
+        49.4022948
+      ]
+    },
+    "properties" : {
+      "@osmId" : "node/4975134347",
+      "@snapshotTimestamp" : "2022-02-16T00:00:00Z"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [
+        8.6885077,
+        49.4080617
+      ]
+    },
+    "properties" : {
+      "@osmId" : "node/5319179803",
+      "@snapshotTimestamp" : "2022-02-16T00:00:00Z"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [
+        8.6886311,
+        49.408071
+      ]
+    },
+    "properties" : {
+      "@osmId" : "node/5320134447",
+      "@snapshotTimestamp" : "2022-02-16T00:00:00Z"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [
+        8.6650542,
+        49.4025474
+      ]
+    },
+    "properties" : {
+      "@osmId" : "node/5339757229",
+      "@snapshotTimestamp" : "2022-02-16T00:00:00Z"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [
+        8.6691622,
+        49.4176575
+      ]
+    },
+    "properties" : {
+      "@osmId" : "node/5731363317",
+      "@snapshotTimestamp" : "2022-02-16T00:00:00Z"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [
+        8.6703714,
+        49.416691
+      ]
+    },
+    "properties" : {
+      "@osmId" : "node/5731363426",
+      "@snapshotTimestamp" : "2022-02-16T00:00:00Z"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [
+        8.6896548,
+        49.4075992
+      ]
+    },
+    "properties" : {
+      "@osmId" : "node/6125400315",
+      "@snapshotTimestamp" : "2022-02-16T00:00:00Z"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [
+        8.6827955,
+        49.4191076
+      ]
+    },
+    "properties" : {
+      "@osmId" : "node/6469901379",
+      "@snapshotTimestamp" : "2022-02-16T00:00:00Z"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [
+        8.6860431,
+        49.4121698
+      ]
+    },
+    "properties" : {
+      "@osmId" : "node/6653119986",
+      "@snapshotTimestamp" : "2022-02-16T00:00:00Z"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [
+        8.6633279,
+        49.4147484
+      ]
+    },
+    "properties" : {
+      "@osmId" : "node/6811538228",
+      "@snapshotTimestamp" : "2022-02-16T00:00:00Z"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [
+        8.6634285,
+        49.4147641
+      ]
+    },
+    "properties" : {
+      "@osmId" : "node/6811554885",
+      "@snapshotTimestamp" : "2022-02-16T00:00:00Z"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [
+        8.6633147,
+        49.4147812
+      ]
+    },
+    "properties" : {
+      "@osmId" : "node/6811554985",
+      "@snapshotTimestamp" : "2022-02-16T00:00:00Z"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [
+        8.6985165,
+        49.4090893
+      ]
+    },
+    "properties" : {
+      "@osmId" : "node/7109380870",
+      "@snapshotTimestamp" : "2022-02-16T00:00:00Z"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [
+        8.6608469,
+        49.4140079
+      ]
+    },
+    "properties" : {
+      "@osmId" : "node/7623722301",
+      "@snapshotTimestamp" : "2022-02-16T00:00:00Z"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [
+        8.6813586,
+        49.4117447
+      ]
+    },
+    "properties" : {
+      "@osmId" : "node/7977704685",
+      "@snapshotTimestamp" : "2022-02-16T00:00:00Z"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [
+        8.6721484,
+        49.3979193
+      ]
+    },
+    "properties" : {
+      "@osmId" : "node/8474076689",
+      "@snapshotTimestamp" : "2022-02-16T00:00:00Z"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [
+        8.6623507,
+        49.3856339
+      ]
+    },
+    "properties" : {
+      "@osmId" : "node/9341212544",
+      "@snapshotTimestamp" : "2022-02-16T00:00:00Z"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [
+        8.6688914,
+        49.380731
+      ]
+    },
+    "properties" : {
+      "@osmId" : "node/9499371717",
+      "@snapshotTimestamp" : "2022-02-16T00:00:00Z"
+    }
+  }]
+}
